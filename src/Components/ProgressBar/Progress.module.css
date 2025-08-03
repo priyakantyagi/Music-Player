@@ -1,0 +1,38 @@
+.progressBar {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.timeContainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: white;
+}
+
+.rangeInput {
+  width: 100%;
+  cursor: pointer;
+  color: white;
+}
+.rangeWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.hoverTooltip {
+  position: absolute;
+  bottom: 100%;
+  transform: translateX(-50%);
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 5;
+}
+

@@ -1,0 +1,25 @@
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin: 20px 0;
+}
+
+.controls button {
+  background-color: #1e1e2f;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0, 255, 204, 0.2);
+}
+
+.controls button:hover {
+  transform: scale(1.1);
+  background-color: #00ffcc;
+  color: #1e1e2f;
+}
